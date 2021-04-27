@@ -1,0 +1,108 @@
+.aboutus-banner{
+    background-color: $banner-color;
+    p{
+        padding:0rem;
+        color:$white-color;
+    }
+    h2{
+        font-size: 2.5rem;
+        font-weight:800;
+        color:$white-color;
+        padding-bottom:2rem;
+    }
+    div{
+        padding:4rem 0;
+    }
+   
+}
+.industry-section{
+    h3{
+        color:$banner-color;
+        font-size:1.2rem;
+        font-weight:700;
+        padding-bottom: 1rem;
+    }
+    .aboutus-paragraph{
+        line-height: 1.7;
+    }
+}
+.tasks-section{
+    padding:7rem 0;
+    p{
+        padding:0;
+    }
+    i{
+        font-size:4rem;
+        margin-right:2rem;
+        opacity:0.8;
+    }
+    .tasks-article{
+        margin-bottom:6rem;
+    }
+    .tasks-gear img{
+        width:100%;
+    }
+    .tasks-article h2{
+        font-size: 1.4rem;
+        color:$darktext-color;
+        font-weight: 600;
+        padding-bottom:1rem;
+    }
+}
+.team-image-section{
+    padding:7rem 0rem;
+    background-color: $solutions-bg;
+    .image-section{
+        flex:0 1 22%;
+        border-radius:0.5rem;
+        background: $white-color;
+        h3{
+            font-size: 1.5rem;
+            padding:2rem 0 0.5rem 0;
+        }
+    }
+    .team-image-article{
+        padding:4rem 0;
+    }
+    .image-section img{
+        width:100%;
+    }
+    h2,p{
+        text-align: center;
+        
+        
+    }
+    .team-image-paragraph{
+        font-weight:700;
+        color:$darktext-color;
+        font-size:1.2rem;
+        padding:0rem;
+        padding-top: 1rem;
+    }
+    p{
+        font-weight:500;
+        color:$banner-color;
+        font-size:0.8rem;
+        padding:0rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.solutions-about-section{
+    p{
+        width:60%;
+    }
+    background-color: $solutions-bg;
+    .solutions-btn{
+        @include btn($banner-color,$white-color);
+        
+    }
+    .solutions-bg-color{
+        background: $white-color;
+        padding:7rem;
+        .solutions-btn{
+            @include btn($banner-color,$white-color);
+        }
+    }
+   
+}

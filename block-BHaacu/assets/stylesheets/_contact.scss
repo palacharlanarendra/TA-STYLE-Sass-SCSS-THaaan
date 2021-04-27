@@ -1,0 +1,89 @@
+.contact-section {
+    padding:7rem 0;
+    background-color:$solutions-bg;
+    p{
+        padding:0;
+    }
+    .contact-logo{
+        width:6rem;
+        height:6rem;
+        border-radius:50%;
+        background-color: rgb(211, 211, 211);
+    }
+    i{
+        font-size: 1.8rem;
+        color:$banner-color;
+    }
+    .contact-article{
+        text-align:center;
+    }
+    p{
+        width:60%;
+        text-align:center;
+        margin:0 auto;
+        color:$lighttext-color;
+        line-height: 1.5;
+    }
+    .article-section{
+        padding-top:5rem;
+        h3{
+            font-size: 1.2rem;
+            color:$darktext-color;
+            font-weight: 700;
+            padding:1.5rem 0;
+        }
+        a{
+            text-decoration: none;
+            color:$darktext-color;
+        }
+    }
+}
+.form-section{
+    background-color: $white-color;
+    padding:4rem 0;
+    h2{
+        text-align: center;
+        padding:7rem 0 2rem 0;
+    }
+    h3{
+        font-size:1.4rem;
+        color:$darktext-color;
+        font-weight:700;
+        padding:2rem 0;
+    }
+    p{
+        padding:0;
+        color:$lighttext-color;
+        font-size: 1.2rem;
+        padding-bottom:2rem;
+    }
+    iframe{
+        height:20rem;
+        width:100%;
+    }
+    form{
+        padding:0 4rem;
+        input{
+            max-width:100%;
+            width:35rem;
+        }
+    }
+    
+    .input{
+        width:90%;
+        margin-bottom:2rem;
+        border:2px solid rgb(216, 216, 216);
+        font-size: 1.5rem;
+        border-radius:0.5rem;
+        padding:1rem;
+    }
+    
+    .form-btn{
+        border:1px solid $white-color!important;
+        @include btn($banner-color,$white-color);
+        padding: {
+            top:1.5rem;
+            bottom:1.5rem;
+        }
+    }
+}
