@@ -53,7 +53,7 @@
                     <div class="container flexbox">
                         <div class="brand">
                             <strong>
-                                <a>
+                                <a class="branding">
                                     Uni <span>TECH</span>
                                 </a>
                             </strong>
@@ -64,13 +64,13 @@
                         <input id="toggle" type="checkbox">
                         <nav class="nav">
                             <ul class="flexbox flex-direction-col">
-                                <li class="active-btn">
+                                <li>
                                     <a href="./index.html">Home</a>
                                 </li>
                                 <li>
                                     <a href="./about.html">About Us</a>
                                 </li>
-                                <li>
+                                <li class="active-btn">
                                     <a href="./services.html">Services</a>
                                 </li>
                                 <li class="dropdown-box">
@@ -103,62 +103,97 @@
                 </section>
         </header>
         <main>
-            <section class="hero-section">
-                <figure class="figure">
-                    <div class="container flex-small-screen">
-                   
-                        <article class="hero-section">
-                            <h1>best business services</h1>
-                            <h3>lets grow your business together</h3>
-                            <button class="hero-btn">Quick Call</button>
-                        </article>
-                    </div>
-                </figure> 
-            </section>
-            <section class="services-section">
-                <div class="container">
-                    <h2 class="sub-headings">Our Services</h2>
-                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <section class="article-section flexbox flex-direction-col">
-                        <article class="box boxflex flex-28 flex-small-100">
-                            <figure class="consulting-figure">
-                                <img src="./assets/media/feature.svg" alt="consulting"/>
-                            </figure>
-                            <h3>Consulting</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi culpa ducimus nemo corrupti sunt sint. Similique, officiis voluptatem. Ea doloribus quam nisi.</p>
-                            <button class="article-btn">
-                                Read More
-                            </button>
-                        </article>
-                        <article class="box boxflex flex-28 flex-small-100">
-                            <figure class="consulting-figure">
-                                <img src="./assets/media/finance.svg" alt="consulting"/>
-                            </figure>
-                            <h3>Finance</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi culpa ducimus nemo corrupti sunt sint. Similique, officiis voluptatem. Ea doloribus quam nisi.</p>
-                            <button class="article-btn">
-                                Read More
-                            </button>
-                        </article>
-                        <article class="box boxflex flex-28 flex-small-100">
-                            <figure class="consulting-figure">
-                                <img src="./assets/media/technology.svg" alt="consulting"/>
-                            </figure>
-                            <h3>Technology</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi culpa ducimus nemo corrupti sunt sint. Similique, officiis voluptatem. Ea doloribus quam nisi.</p>
-                            <button class="article-btn">
-                                Read More
-                            </button>
-                        </article>
-                    </section>
-                </div>
-            
-            </section>
-            <section class="solutions-section">
+            <section class="aboutus-banner">
                 <div class="container boxflex">
-                    <h2 class="sub-headings">Get all type of Solutions</h2>
-                    <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro eos fugit beatae libero dolore animi numquam est</p>
-                    <button class="solutions-btn">Read More</button>
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </section>
+            <section class="industry-section">
+                <div class="container flexbox flex-direction-col">
+                    <article class="industry-article flex-46 flex-small-100">
+                        <h3>Our Services</h3>
+                        <h2 class="sub-headings">Find the best services and consulting for affordable deals</h2>
+                        <p class="aboutus-paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat labore libero molestias provident quae quaerat quis!</p>
+                    </article>
+                    <figure class="industry-image flex-48 ">
+                        <img src="./assets/media/business-1.jpg" alt="woman image"/>
+                    </figure>
+                </div>
+            </section>
+            <section class="product-section">
+               <div class="container">
+                    <h2 class="sub-headings">Our Products</h2>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <section class="article-section commonflex">
+                        <article class="product-article flex-30">
+                           <figure>
+                             <img src="./assets/media/consulting.svg"/>
+                           </figure>
+                           <h3>Excellent Features</h3>
+                           <p>Achieve virtually any look and layout design within one UI Kit solution.</p>
+                        </article>
+                        <article class="product-article flex-30">
+                            <figure>
+                              <img src="./assets/media/finance.svg"/>
+                            </figure>
+                            <h3>Powerful API</h3>
+                            <p>We strive to figure out ways to help your audience grow through all platforms.</p>
+                         </article>
+                         <article class="product-article flex-30">
+                            <figure>
+                              <img src="./assets/media/blockchain.svg"/>
+                            </figure>
+                            <h3>Blockchain Based</h3>
+                            <p>Find what you need in one template and combine features at will.</p>
+                         </article>
+                    </section>
+                    <hr class="line"/>
+                    <section class="article-section commonflex">
+                        <article class="product-article flex-30">
+                           <figure>
+                             <img src="./assets/media/vuejs.svg"/>
+                           </figure>
+                           <h3>VueJS Included</h3>
+                           <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        </article>
+                        <article class="product-article flex-30">
+                            <figure>
+                              <img src="./assets/media/react.svg"/>
+                            </figure>
+                            <h3>React Powered</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                         </article>
+                         <article class="product-article flex-30">
+                            <figure>
+                              <img src="./assets/media/angular.svg"/>
+                            </figure>
+                            <h3>Angular Compatible</h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                         </article>
+                    </section>
+               </div>
+              
+            </section>
+            <section class="services-red-banner">
+                <div class="container services-reference commonflex">
+                    <article class="serviceflex  commonflex">
+                        <h3>Best Deals</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                    </article>
+                    <div class="flex-28">
+                        <btn class="services-red-btn">Grab the Deal</btn>
+                    </div>
+                </div>
+
+            </section>
+            <section class="solutions-about-section">
+                <div class="solutions-bg-color">
+                    <div class="container boxflex">
+                        <h2 class="sub-headings">Best Awarded</h2>
+                        <p class="paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                        <button class="solutions-btn">Read the story</button>
+                    </div>
                 </div>
             </section>
             <section class="team-section">
@@ -167,62 +202,12 @@
                         <div class="team-logo">
                             <a><i class="fab fa-connectdevelop"></i></a>
                         </div>
-                        <h2 class="sub-headings">We are Top Consulting Firm in the World</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum assumenda fugit laboriosam tempora reiciendis ea fugiat omnis rem sint magni.</p>
-                        <button class="team-btn">Read More</button>
+                        <h2 class="sub-headings">There are many variations of passages of Lorem Ipsum available.</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
                     </article>
                     <figure class="team-image flex-50 flex-small-100">
                         <img src="./assets/media/team.jpg"/>
                     </figure>
-                </div>
-            </section>
-            <section class="red-section">
-                <div class="container">
-                    <article class="flexbox">
-                        <section>
-                            <h3>The best business consultancy services in world</h3>
-                            <h4>There are many variations of passagesof Lorem Ipsum available the majority alteration</h4>
-                        </section>
-                        <div>
-                            <button class="red-btn">Request Quote</button>
-                        </div>
-                    </article>
-                </div>
-            </section>
-            <section class="industry-section">
-                <div class="container flexbox flex-direction-col">
-                    <article class="industry-article flex-40 flex-small-100">
-                        <h2 class="sub-headings">Industry leader in consulting services</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit dolor, facilis quo suscipit, neque quas animi dolorum hic, fuga ut deleniti. Reprehenderit impedit iure provident maxime amet obcaecati, quod sint.</p>
-                    </article>
-                    <figure class="industry-image flex-48 flex-small-100">
-                        <img src="./assets/media/img-woman-1.jpg" alt="woman image"/>
-                    </figure>
-                </div>
-            </section>
-            <section class="clients-section">
-                <div class="container">
-                    <h2 class="sub-headings">Our Clients</h2>
-                    <article class="flexbox flex-direction-col">
-                        <figure>
-                            <img src="./assets/media/spotify.png"/>
-                        </figure>
-                        <figure>
-                            <img src="./assets/media/glasfit.png"/>
-                        </figure>
-                        <figure>
-                            <img src="./assets/media/atlassian.png"/>
-                        </figure>
-                        <figure>
-                            <img src="./assets/media/oracle.png"/>
-                        </figure>
-                        <figure>
-                            <img src="./assets/media/airbnb.png"/>
-                        </figure>
-                        <figure>
-                            <img src="./assets/media/patio.png"/>
-                        </figure>
-                    </article>
                 </div>
             </section>
         </main>
