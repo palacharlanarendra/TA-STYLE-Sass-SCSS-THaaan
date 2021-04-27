@@ -1,0 +1,220 @@
+// general styles
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font: {
+        family: 'Archivo', sans-serif;
+    }
+    line-height:1.2;
+}
+.container{
+    max-width:1200px;
+    width:100%;
+    margin:0 auto;
+    padding:0 2rem;
+}
+#toggle,.bars{
+    display:none;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex-28{
+    flex:0 1 28%;
+}
+.flex-30{
+    flex:0 1 30%;
+}
+.flex-32{
+    flex: 0 1 32%;
+}
+.flex-35{
+    flex:0 1 35%;
+}
+.flex-38{
+    flex:0 1 38%;
+}
+.flex-40{
+    flex:0 1 40%;
+}
+.flex-45{
+    flex:0 1 45%;
+}
+.flex-46{
+    flex:0 1 45%;
+}
+.flex-48{
+    flex:0 1 48%;
+}
+.flex-50{
+    flex:0 1 50%;
+}
+.flex-60{
+    flex:0 1 60%;
+}
+
+.align-self-stretch{
+    align-self: stretch !important;
+}
+.align-self-center{
+    align-self: center !important;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.teamflex{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.boxflex{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceflex{
+    display:flex;
+}
+.commonflex{
+    display:flex;
+    justify-content: space-between;
+}
+.active-btn{
+    background:$activebtn-color;
+}
+@mixin btn($bg-color,$color) {
+    padding:0.5rem 1.0rem;
+    background-color:$bg-color;
+    color:$color;
+    border-radius:10rem;
+    border: $white-color;
+    font: {
+        size:1.2rem;
+        font-weight: 500;
+    }
+    &:focus{
+        border:none;
+    }
+}
+.sub-headings{
+    font-size:2.5rem;
+    font-weight:900;
+    color:$darktext-color;
+}
+.paragraph{
+    font-size:1.4rem !important;
+    text-align: center;
+}
+p{
+    padding:3rem 0rem;
+    color:$lighttext-color;
+    font-weight:500;
+    line-height:1.4;
+}
+.white-active{
+    color:$footer-headings !important;
+}
+
+
+@media screen and (max-width:768px){
+	html{
+		font-size:10px;
+	}
+    .container{
+        width:80%;
+    }
+    .flex-small-100{
+        flex:0 1 100%;
+        margin-top:2rem;
+    }
+    .flex-small-50{
+        flex:0 1 50%;
+    }
+	.brand{
+        position:fixed;
+		z-index:199;
+        margin-top:4rem;
+        
+	}
+    .branding{
+        color:black;
+    }
+    .clients-section{
+        figure img {
+            width:20rem !important;
+            
+        }
+    }
+	.common-btn-position{
+		top:25rem;
+		z-index:-1;
+	}
+    input{
+        width:100%;
+    }
+    .nav{
+        display:none;
+    }
+    .nav li{
+        margin:2rem 0;
+        font-size:2rem;
+    }
+    .nav li a {
+        color:#ffffff;
+	}
+	.padding-3{
+		padding:3rem 0rem;
+	}
+	.overlay{
+		background-color: rgba(128, 128, 128, 0.52);
+		position:fixed;
+	}
+	.bars{
+		display: inline-block;
+		font-size:2.4rem;
+		color:#111111;
+		position:fixed;
+		right:3.2rem;
+		top:4rem;
+		z-index: 199;
+	}
+	.nav{
+		position:fixed;
+		left:0;
+		right:0;
+		bottom:0;
+		top:0;
+		width:100%;
+		height:100vh;
+		background-color:rgba(161, 161, 161, 0.849);
+		z-index:99;
+	}
+	#toggle:checked~.nav{
+		display:inline-block;
+	}
+    .nav ul{
+        padding-top: 10rem;
+    }
+	.nav li{
+		margin:1.6rem 0;
+	}
+    .flex-direction-col{
+        flex-direction: column;
+    }
+	.nav li a{
+		font-size: 2rem;
+		font-weight: 700;
+        color:$white-color;
+	}
+    .dropdown-menu{
+        display: none!important;
+    }
+}
